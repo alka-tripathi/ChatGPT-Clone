@@ -3,10 +3,15 @@ const morgan =require("morgan");
 const cors=require("cors");
 const bodyParser=require("body-parser")
 const colors=require("colors")
+const connectDB=require("./config/db");
+
+
 
 const dotenv=require("dotenv");
+// const { connect } = require("mongoose");
 dotenv.config();
-
+//mongo
+connectDB();
 
 
   const PORT=process.env.PORT 
