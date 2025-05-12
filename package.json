@@ -1,0 +1,30 @@
+{
+  "name": "chatgptclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon index.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alka-tripathi/ChatGPT-Clone.git"
+  },
+  "author": "Alka Tripathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alka-tripathi/ChatGPT-Clone/issues"
+  },
+  "homepage": "https://github.com/alka-tripathi/ChatGPT-Clone#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2",
+    "morgan": "^1.10.0"
+  }
+}
